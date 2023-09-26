@@ -131,6 +131,12 @@ namespace Alexandre_Calculette_V2
             operation = 'y';
         }
 
+        private void BTN_Cos_Click(object sender, RoutedEventArgs e)
+        {
+            N1 = double.Parse(TB_Affichage.Text);
+            TB_Affichage.Text = "0";
+            operation = 'c';
+        }
 
         private void BTN_Pi_Click(object sender, RoutedEventArgs e)
         {
@@ -201,6 +207,11 @@ namespace Alexandre_Calculette_V2
                 case 'y':
                     result = N1 * N1;
                     TB_Affichage.Text= result.ToString();
+                    break;
+
+                case 'c':
+                    result = Math.Cos(N1);
+                    TB_Affichage.Text = result.ToString();
                     break;
 
             }

@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Alexandre_Calculette_V2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="550">
+        Title="MainWindow" Height="500" Width="560">
     <Grid Background="Black">
         <!--Paragraphe pour définir les colonnes-->
 
 
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
             <ColumnDefinition Width="20*"/>
             <ColumnDefinition Width="20*"/>
             <ColumnDefinition Width="20*"/>
@@ -50,6 +51,7 @@
         <Button Grid.Row="1" Grid.Column="2" Name ="BTN_Multi" Content="*" Click="BTN_Multi_Click" Style="{StaticResource Mystyle}" ></Button>
         <Button Grid.Row="1" Grid.Column="1" Name ="BTN_Minus" Content="-" Click="BTN_Minus_Click" Style="{StaticResource Mystyle}"></Button>
         <Button Grid.Row="1" Grid.Column="0" Name ="BTN_Plus" Content="+" Click="BTN_Plus_Click" Style="{StaticResource Mystyle}"></Button>
+        <Button Grid.Row="1" Grid.Column="4" Name ="BTN_Cos" Content="Cos" Click="BTN_Cos_Click" Style="{StaticResource Mystyle}" ></Button>
 
         <!--Paragraphe pour la deuxième ligne, bouton 1,2,3 et *-->
 
