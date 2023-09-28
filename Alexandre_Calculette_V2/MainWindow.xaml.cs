@@ -17,6 +17,8 @@ namespace Alexandre_Calculette_V2
 {
     public partial class MainWindow : Window
     {
+        
+        /* ************************ Initialisation *************************/
 
         double N1 = 0;
         double N2 = 0;
@@ -28,8 +30,7 @@ namespace Alexandre_Calculette_V2
             InitializeComponent();
         }
 
-        /* ************************ Apparition de tous les boutons *************************/
-
+        /* ************************ Apparition de tous les boutons chiffres *************************/
 
         private void BTN_1_Click(object sender, RoutedEventArgs e)
         {
@@ -81,8 +82,7 @@ namespace Alexandre_Calculette_V2
             display("0");
         }
 
-        /* ************************ Apparition des opérateurs et virgule *************************/
-
+        /* ************************ Affichage des opérateurs et virgule *************************/
 
         private void BTN_Virgule_Click(object sender, RoutedEventArgs e)
         {
@@ -163,9 +163,7 @@ namespace Alexandre_Calculette_V2
             }
         }
 
-
         /* ************************ Fonction pour afficher un chiffre ou un opérateur *************************/
-
 
         public void display(string num)
         {
@@ -179,7 +177,7 @@ namespace Alexandre_Calculette_V2
             }
         }
 
-        /* ************************ Egale *************************/
+        /* ************************ Egale / Affichage du résultat *************************/
 
         private void BTN_Egale_Click(object sender, RoutedEventArgs e)
         {
@@ -240,7 +238,7 @@ namespace Alexandre_Calculette_V2
             }
         }
 
-        /* ************************ Clear *************************/
+        /* ************************ Clear / Remise a 0 des variables *************************/
 
         private void BTN_Del_Click(object sender, RoutedEventArgs e)
         {

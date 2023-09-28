@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="560">
     <Grid Background="Black">
+      
         <!--Paragraphe pour définir les colonnes-->
-
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20*"/>
@@ -19,9 +19,7 @@
 
         </Grid.ColumnDefinitions>
 
-
         <!--Paragraphe pour définir les lignes-->
-
 
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
@@ -32,14 +30,11 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-
         <!--Style des boutons-->
-
 
         <Grid.Resources>
 
         </Grid.Resources>
-
 
         <!--Paragraphe pour la TextBox -->
 
@@ -82,6 +77,5 @@
         <Button Grid.Row="5" Grid.Column="1" Name ="BTN_Virgule" Content="," Click="BTN_Virgule_Click"></Button>
         <Button Grid.Row="5" Grid.Column="2" Name="BTN_Pi" Content="π" Click="BTN_Pi_Click" ></Button>
         <Button Grid.Row="5" Grid.Column="3" Name ="BTN_Egale" Content="=" Style="{StaticResource Cyan}" Click="BTN_Egale_Click" Grid.ColumnSpan="2" Margin="10,10,10,10"/>
-
     </Grid>
 </Window>

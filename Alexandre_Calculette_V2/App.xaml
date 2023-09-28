@@ -56,7 +56,7 @@
             </Style.Resources>
         </Style>
 
-        <!--Couleur pour TextBox (Black)-->
+        <!--Couleur pour TextBox (Fond (Gray), Police (White))-->
 
 
         <Style x:Key="TextBox" TargetType="{x:Type TextBox}">
@@ -72,7 +72,7 @@
             </Style.Resources>
         </Style>
 
-        <!--Couleur pour bouton DEL (orange)-->
+        <!--Couleur pour bouton DEL (GreenYellow)-->
         
 
         <Style x:Key="Red" TargetType="{x:Type Button}">
