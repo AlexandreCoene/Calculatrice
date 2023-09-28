@@ -138,6 +138,20 @@ namespace Alexandre_Calculette_V2
             operation = 'c';
         }
 
+        private void BTN_Sin_Click(object sender, RoutedEventArgs e)
+        {
+            N1 = double.Parse(TB_Affichage.Text);
+            TB_Affichage.Text = "0";
+            operation = 's';
+        }
+
+        private void BTN_Tan_Click(object sender, RoutedEventArgs e)
+        {
+            N1 = double.Parse(TB_Affichage.Text);
+            TB_Affichage.Text = "0";
+            operation = 't';
+        }
+
         private void BTN_Pi_Click(object sender, RoutedEventArgs e)
         {
             if (TB_Affichage.Text != "") N1 = double.Parse(TB_Affichage.Text);
@@ -214,6 +228,15 @@ namespace Alexandre_Calculette_V2
                     TB_Affichage.Text = result.ToString();
                     break;
 
+                case 's':
+                    result = Math.Sin(N1);
+                    TB_Affichage.Text = result.ToString();
+                    break;
+
+                case 't':
+                    result = Math.Tan(N1);
+                    TB_Affichage.Text = result.ToString();
+                    break;
             }
         }
 

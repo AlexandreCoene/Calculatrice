@@ -7,12 +7,12 @@
 
         
 
-         <!--Couleur pour bouton (NavajoWhite)--> 
+         <!--Couleur pour bouton (White)--> 
         
 
         <Style TargetType="{x:Type Button}">
             <Setter Property="Margin" Value="10"/>
-            <Setter Property="Background" Value="NavajoWhite" />
+            <Setter Property="Background" Value="White" />
             <Setter Property="FontSize" Value="38"/>
             <Setter Property="TextBlock.TextAlignment" Value="Center" />
             <Style.Resources>
@@ -23,12 +23,12 @@
         </Style>
 
         
-         <!--Couleur pour bouton (CadetBlue)-->
+         <!--Couleur pour bouton (DeepSkyBlue)-->
         
 
         <Style x:Key="Mystyle" TargetType="{x:Type Control}">
             <Setter Property="Margin" Value="10"/>
-            <Setter Property="Background" Value="CadetBlue"/>
+            <Setter Property="Background" Value="DeepSkyBlue"/>
             <Setter Property="FontSize" Value="38"/>
             <Setter Property="TextBlock.TextAlignment" Value="Center" />
             <Style.Resources>
@@ -41,12 +41,12 @@
         
         
         
-         <!--Couleur pour bouton (cyan)-->
+         <!--Couleur pour bouton (Gray)-->
         
 
         <Style x:Key="Cyan" TargetType="{x:Type Button}">
             <Setter Property="Margin" Value="10"/>
-            <Setter Property="Background" Value="Cyan"/>
+            <Setter Property="Background" Value="gray"/>
             <Setter Property="FontSize" Value="38"/>
             <Setter Property="TextBlock.TextAlignment" Value="Center" />
             <Style.Resources>
@@ -56,18 +56,18 @@
             </Style.Resources>
         </Style>
 
-        <!--Couleur pour bouton (cyan)-->
+        <!--Couleur pour TextBox (Black)-->
 
 
         <Style x:Key="TextBox" TargetType="{x:Type TextBox}">
             <Setter Property="Margin" Value="10"/>
-            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Background" Value="Gray"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="40"/>
             <Setter Property="TextBlock.TextAlignment" Value="Center" />
             <Style.Resources>
                 <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="40" />
+                    <Setter Property="CornerRadius" Value="50" />
                 </Style>
             </Style.Resources>
         </Style>
@@ -77,7 +77,7 @@
 
         <Style x:Key="Red" TargetType="{x:Type Button}">
             <Setter Property="Margin" Value="10"/>
-            <Setter Property="Background" Value="Orange"/>
+            <Setter Property="Background" Value="GreenYellow"/>
             <Setter Property="FontSize" Value="38"/>
             <Setter Property="TextBlock.TextAlignment" Value="Center" />
             <Style.Resources>
