@@ -1,0 +1,77 @@
+﻿<Window x:Class="Alexandre_Calculette_V2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alexandre_Calculette_V2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="560">
+    <Grid Background="Black">
+        
+        <!--Paragraphe pour définir les colonnes-->
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="20*"/>
+
+        </Grid.ColumnDefinitions>
+
+
+        <!--Paragraphe pour définir les lignes-->
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Paragraphe pour la TextBox -->
+
+        <TextBox Grid.Row="0" Grid.ColumnSpan="5" Name="TB_Affichage" IsReadOnly="True" Style="{StaticResource TextBox}"></TextBox>
+
+        <!-- Paragraphe pour la première ligne, bouton +,-,* et / -->
+
+        <Button Grid.Row="1" Grid.Column="3" Name ="BTN_Division" Content="/" Click="BTN_Division_Click" Style="{StaticResource Mystyle}"></Button>
+        <Button Grid.Row="1" Grid.Column="2" Name ="BTN_Multi" Content="*" Click="BTN_Multi_Click" Style="{StaticResource Mystyle}" ></Button>
+        <Button Grid.Row="1" Grid.Column="1" Name ="BTN_Minus" Content="-" Click="BTN_Minus_Click" Style="{StaticResource Mystyle}"></Button>
+        <Button Grid.Row="1" Grid.Column="0" Name ="BTN_Plus" Content="+" Click="BTN_Plus_Click" Style="{StaticResource Mystyle}"></Button>
+        <Button Grid.Row="1" Grid.Column="4" Name ="BTN_Cos" Content="Cos" Click="BTN_Cos_Click" Style="{StaticResource Mystyle}" ></Button>
+
+        <!--Paragraphe pour la deuxième ligne, bouton 1,2,3 et *-->
+
+        <Button Grid.Row="2" Grid.Column="0" Name ="BTN_1" Content="1" Click="BTN_1_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="1" Name ="BTN_2" Content="2" Click="BTN_2_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="2" Name ="BTN_3" Content="3" Click="BTN_3_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="3" Name ="BTN_Racine" Content="√" Click="BTN_Racine_Click" Style="{StaticResource Mystyle}"></Button>
+        <Button Grid.Row="2" Grid.Column="4" Name ="BTN_Sin" Content="Sin" Click="BTN_Sin_Click" Style="{StaticResource Mystyle}" ></Button>
+
+        <!--Paragraphe pour la quatrième ligne, bouton 4,5,6 -->
+
+        <Button Grid.Row="3" Grid.Column="0" Name ="BTN_4" Content="4" Click="BTN_4_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Name ="BTN_5" Content="5" Click="BTN_5_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Name ="BTN_6" Content="6" Click="BTN_6_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="3" Name ="BTN_Puissance2" Content="x²" Click="BTN_Puissance_Click" Style="{StaticResource Mystyle}"></Button>
+        <Button Grid.Row="3" Grid.Column="4" Name ="BTN_Tan" Content="Tan" Click="BTN_Tan_Click" Style="{StaticResource Mystyle}" ></Button>
+
+        <!--Paragraphe pour la quatrième ligne, bouton 7,8,9 et DEL-->
+
+        <Button Grid.Row="4" Grid.Column="0" Name ="BTN_7" Content="7" Click="BTN_7_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="1" Name ="BTN_8" Content="8" Click="BTN_8_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="2" Name ="BTN_9" Content="9" Click="BTN_9_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="3" Name ="BTN_Del" Content="DEL" Style="{StaticResource Red}" Click="BTN_Del_Click" Grid.ColumnSpan="2" Margin="10,10,10,10"/>
+
+        <!--Paragraphe pour la quatrième ligne, bouton 0, "," PI, et = -->
+
+        <Button Grid.Row="5" Grid.Column="0" Name ="BTN_0" Content="0" Click="BTN_0_Click"/>
+        <Button Grid.Row="5" Grid.Column="1" Name ="BTN_Virgule" Content="," Click="BTN_Virgule_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="2" Name="BTN_Pi" Content="π" Click="BTN_Pi_Click" ></Button>
+        <Button Grid.Row="5" Grid.Column="3" Name ="BTN_Egale" Content="=" Style="{StaticResource Cyan}" Click="BTN_Egale_Click" Grid.ColumnSpan="2" Margin="10,10,10,10"/>
+    </Grid>
+</Window>

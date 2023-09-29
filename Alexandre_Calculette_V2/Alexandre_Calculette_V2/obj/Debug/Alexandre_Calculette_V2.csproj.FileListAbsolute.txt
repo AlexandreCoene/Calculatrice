@@ -1,0 +1,17 @@
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\bin\Debug\Alexandre_Calculette_V2.exe.config
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\bin\Debug\Alexandre_Calculette_V2.exe
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\bin\Debug\Alexandre_Calculette_V2.pdb
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2.csproj.AssemblyReference.cache
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2.csproj.SuggestedBindingRedirects.cache
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\MainWindow.g.cs
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\App.g.cs
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2_MarkupCompile.cache
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2_MarkupCompile.lref
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\App.baml
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\MainWindow.baml
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2.g.resources
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2.Properties.Resources.resources
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2.csproj.GenerateResource.cache
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2.csproj.CoreCompileInputs.cache
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2.exe
+C:\Users\SLAB62\Source\Repos\Alexandre_Calculette_V2\Alexandre_Calculette_V2\obj\Debug\Alexandre_Calculette_V2.pdb
