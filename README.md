@@ -32,4 +32,4 @@ Ajoutez ici une capture d'écran de l'interface de la calculatrice.
 
 ## 📝 Auteurs
 
-- **Votre Nom** - [Votre Profil GitHub](https://github.com/AlexandreCoene)
+- **Coene Alexandre** - [GitHub](https://github.com/AlexandreCoene)
