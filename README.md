@@ -19,7 +19,7 @@ Une calculatrice simple développée en C# avec .NET WPF.
 
 Ajoutez ici une capture d'écran de l'interface de la calculatrice.
 
-![Aperçu de la calculatrice](chemin/vers/image.png)
+![Aperçu de la calculatrice](image.png)
 
 ## 💻 Installation et exécution
 
